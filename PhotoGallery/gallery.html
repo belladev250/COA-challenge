@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=D-DIN+Condensed&family=Poppins&display=swap">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="gallery">
+            <div class="image-container">
+                <img src="./images/fox.png" alt="Image 1" class="thumbnail" data-src="./images/fox.png">
+                <div class="overlay">
+                    <div class="text-container">
+                        <p class="title">Fennec Fox</p>
+                        <p class="description">India</p>
+                        <a href="#" class="know-more">Know More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./images/whale.png" alt="Image 2" class="thumbnail" data-src="./images/whale.png">
+                <div class="overlay">
+                    <div class="text-container">
+                        <p class="title">Humpback whale</p>
+                        <p class="description">South Africa</p>
+                        <a href="#" class="know-more">Know More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./images/baboon.png" alt="Image 3" class="thumbnail" data-src="./images/baboon.png">
+                <div class="overlay">
+                    <div class="text-container">
+                        <p class="title">Common Brown Baboon</p>
+                        <p class="description">South Africa</p>
+                        <a href="#" class="know-more">Know More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./images/deer.png" alt="Image 4" class="thumbnail" data-src="./images/deer.png">
+                <div class="overlay">
+                    <div class="text-container">
+                        <p class="title">Spotted Deer</p>
+                        <p class="description">Amazon</p>
+                        <a href="#" class="know-more">Know More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    <script src="gallery.js"></script>
+</body>
+</html>
